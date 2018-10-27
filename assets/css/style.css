@@ -1,0 +1,128 @@
+body {
+    background-image: url(../images/Halloween-Background.png);
+    background-size: 100%;
+    /* background-image: url(../images/spider.png); */
+    /* background-image: url(../images/jack-o-lantern.png); */
+    background-image: url(../images/Ghost.png);
+    z-index: 0;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.jumbotron {
+    /* background-image: url(../images/HalloweenHeader.png); */
+    z-index: 1;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    background-color: orangered;
+    /* opacity: .9; */
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#topic-label {
+    margin-right:10px;
+    z-index: 2;
+}
+
+.topic-btn {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right:5px;
+    z-index: 2;
+    background-color: orange;
+}
+
+#add-topic {
+    background-color: orangered;
+}
+
+#gif-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: initial;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    /* border-width: 2px;
+    border-color: black;
+    border-style: solid; */
+}
+
+#gif-display {
+    height: 200px;
+}
+
+.gif {
+    margin-right: 5px;
+    margin-top: 2px;
+    z-index: 2;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-width: 2px;
+    z-index: 2;
+    color: orangered;
+}
+
+#topic-label {
+    color:black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#topic-input {
+    background-color: orangered;
+    opacity: .9;
+    color:black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#limit-label {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+#limit-pref {
+    background-color: orangered;
+    opacity: .9;
+    color:black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#rating-label {
+    color:black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#rating-pref {
+    background-color: orangered;
+    opacity: .9;
+    color:black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.gif {
+    max-width: 150px; 
+    min-width: 150px;
+}
+
+.gif-heading {
+    color:black;
+    background-color: orange;
+}
